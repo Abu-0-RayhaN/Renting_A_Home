@@ -17,22 +17,22 @@ Rent A Home is a project aimed at addressing the challenges faced by individuals
 - HTML/CSS: Frontend development for user interface design
 - JavaScript: Enhancing user interactions and dynamic content
 - Sqlite3: Database management system for storing application data
+- Tailwind CSS: A utility-first CSS framework for building custom user interfaces
 
 ## Installation
 To run the Rent A Home application locally, follow these steps:
 
 1. Clone the repository:
+$git clone https://github.com/username/project.git
 
-2. Navigate to the project directory:
+2. Go to the right directory where manage.py is located:
+$cd exact_directory
+3. Create Virtual Environment and add to gitignore:
+$python -m venv yourenvname
+4.Install all dependencies:
+$ pip install -r requirements.txt
+5.run tailwind server:
+$python manage.py tailwind start
+6. run local development server(Remember you have to be in the where directory where manage.py is located):
+$py manage.py runserver
 
-3. Install the required dependencies:
-
-4. Set up the database:
-- Create a PostgreSQL database for the project.
-- Configure the database settings in the `settings.py` file.
-
-5. Apply database migrations:
-
-6. Start the development server:
-
-7. Access the application in your web browser:

@@ -23,16 +23,16 @@ Rent A Home is a project aimed at addressing the challenges faced by individuals
 To run the Rent A Home application locally, follow these steps:
 
 1. Clone the repository:
-$git clone https://github.com/username/project.git
+```git clone https://github.com/username/project.git```
 
 2. Go to the right directory where manage.py is located:
-$cd exact_directory
+```cd exact_directory```
 3. Create Virtual Environment and add to gitignore:
-$python -m venv yourenvname
+```python -m venv yourenvname```
 4.Install all dependencies:
-$ pip install -r requirements.txt
+```pip install -r requirements.txt```
 5.run tailwind server:
-$python manage.py tailwind start
+```python manage.py tailwind start```
 6. run local development server(Remember you have to be in the where directory where manage.py is located):
-$py manage.py runserver
+```py manage.py runserver```
 
